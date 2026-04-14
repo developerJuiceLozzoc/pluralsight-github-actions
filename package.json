@@ -1,0 +1,17 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "A Tic Tac Toe JavaScript app for practicing GitHub Actions",
+  "main": "src/game.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint src/",
+    "build": "cp index.html dist/index.html && cp src/app.js dist/app.js && cp src/game.js dist/game.js"
+  },
+  "keywords": ["tic-tac-toe", "javascript", "github-actions"],
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0"
+  }
+}
