@@ -12,7 +12,7 @@ jobs:
     giphy-shitter:
         runs-on: ubuntu-latest
         steps:
-            - name: GIPHY Generator
+            - name: A GIPHY Generator
               uses: IAmHughes/giphy-generator@v1.0.0
               env:
                 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
