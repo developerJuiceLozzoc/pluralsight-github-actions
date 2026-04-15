@@ -1,2 +1,6 @@
+
+
 # pluralsight-github-actionsdjasd
-djasd
+
+when cloning this repo run this command:
+`git config core.hooksPath .githooks`

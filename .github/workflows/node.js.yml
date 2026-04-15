@@ -10,10 +10,9 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build:
-
+  test:
+    name: "Test and LINT project 🐝"
     runs-on: ubuntu-latest
-
     strategy:
       matrix:
         node-version: [22.x]
