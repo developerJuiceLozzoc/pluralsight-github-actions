@@ -11,6 +11,7 @@ on:
 
 jobs:
   test:
+    name: "Test and LINT project 🐝"
     runs-on: ubuntu-latest
     strategy:
       matrix:
